@@ -48,7 +48,7 @@ body {
     padding-bottom: 1.5em;
 }
 .checkbox:checked + .switch::before {
-    transform: translateX(0);
+    transform: translateX(40px);
 
 
 }
@@ -78,7 +78,7 @@ body {
     height: 30px;
     background:var(--switchSpinner);
     border-radius: 50%;
-    transform: translateX(40px);
+    transform: translateX(0);
     transition: .3s;
     will-change: transform;
    
@@ -253,7 +253,7 @@ img {
 
 /*Table*/
 @media screen  and (min-width:768px ){
-    
+
     .grid {
         grid-template-columns: 1fr 1fr 1fr;
         
